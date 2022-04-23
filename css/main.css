@@ -1,0 +1,252 @@
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+nav{
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+nav ul{
+    list-style: none;
+    overflow: hidden;
+    
+}
+
+nav ul li {
+    float: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    
+}
+
+nav ul li a{
+    display: block;    
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    
+    }
+
+nav ul li:hover {
+    background: #012b24ad;
+    }
+
+
+.envoltura {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.253);    
+    width: 100%;
+    position: fixed;
+}
+
+
+main {
+        padding-bottom: 200px;    
+}
+
+h1{
+    text-align: center;
+    padding-top: 7%;}
+h2{
+    text-align: center;
+    padding-top: 1%;    
+}
+
+p {
+    text-align: center;
+    padding-top: 2%;
+    margin-bottom: 15px;
+}
+
+.centro{
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+.seccion-2 {
+       background-color: rgba(0, 0, 0, 0.678);
+       
+       text-align: center;
+}
+
+
+.seccion-3{
+    text-align: center;
+    padding-bottom: 5%;
+
+}   
+
+footer{         
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center;
+
+
+   
+     
+    background-color: rgba(0, 0, 0, 0.438);
+    padding-top: 1%;        
+    }
+
+footer ul li {
+    list-style-type: none;
+}
+
+
+table, td {
+        border: 3px solid black;
+        border-collapse: collapse;    
+        padding: 10px;
+        text-align: center;
+        margin: auto;
+        
+                     
+}
+
+
+.tabla-1{
+    height: 500px;
+}
+.tabla-2{
+    height: 500px;
+}
+.tabla-3{
+    height: 500px;
+}
+.tabla-4{
+    height: 500px;
+}
+
+
+.seccion-4 {
+    text-align: center;  
+}
+.seccion-5 {
+    text-align: center;
+}
+.seccion-6{
+    text-align: center;
+}
+.seccion-7{
+    text-align: center;
+}
+
+
+.grid  {
+    display: grid;
+    grid-template-areas: 
+    
+    "seccion-4"
+    "seccion-4-1"
+    "seccion-4-2"
+    "seccion-4-3" 
+    
+    ;  
+    margin: auto;
+
+    
+    /* grid-template-columns: 700px 700px;
+    grid-template-rows: 700px 700px; */
+    
+}
+
+
+.seccion-4 {
+    padding: 20%;
+    padding-top: 40%;
+    
+}
+
+.seccion-4-1{
+    padding: 20%;
+    
+}
+
+.seccion-4-2 {
+    padding: 20%; 
+    /* padding-top: 80%; */
+   
+}
+
+.seccion-4-3{
+    padding: 20%;
+    /* padding-top: 80%; */
+  
+}
+
+.separador-1 {
+    height: 1000px;
+}
+
+.grid img:hover{
+        transform: scale(1.2);
+        border-radius: 15px;
+        /* border-style: solid; 
+        border-color: rgba(88, 86, 86, 0.527); */
+}
+
+
+
+/* a partir de aca uso las media queris */
+@media screen and (min-width: 768px) { 
+
+    main {
+        padding-bottom: 10px;    
+    }
+
+    nav ul li a{
+    display: block;
+    padding: 25px;    
+    text-decoration: none;
+    
+    }
+    .grid  {
+        grid-template-columns: 700px 700px;
+        grid-template-rows: 700px 700px;
+
+        /* grid-template-areas: 
+        
+        "seccion-4"     "seccion-4-1"
+        "seccion-4-2"   "seccion-4-3" 
+        
+        ; */
+    }
+        .seccion-4 {
+            padding: 20%;
+            
+        }
+        
+        .seccion-4-1{
+            padding: 20%;
+            
+        }
+        
+        .seccion-4-2 {
+            padding: 20%; 
+            padding-top: 80%;
+           
+        }
+        
+        .seccion-4-3{
+            padding: 20%;
+            padding-top: 80%;
+          
+        }
+}
