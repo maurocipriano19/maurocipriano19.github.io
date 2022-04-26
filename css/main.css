@@ -11,7 +11,7 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: space-around;
     
 }
 
@@ -24,7 +24,7 @@ nav ul{
 nav ul li {
     float: left;
     font-family: Arial, sans-serif;
-    font-size: 20px;
+    font-size: 14px;
     
 }
 
@@ -212,7 +212,7 @@ table, td {
     }
 
     nav ul li a{
-    display: block;
+    display: flex;
     padding: 25px;    
     text-decoration: none;
     
