@@ -1,78 +1,27 @@
-/* 
- { *
-    padding: 0;
-    margin: 0;
-} */
-
-
-
-/* nav{
-    
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    
-} */
-
-/* nav ul{
-    list-style: none;
-    overflow: hidden;
-    
-} */
-
-/* nav ul li {
-    float: left;
-    font-family: Arial, sans-serif;
-    font-size: 14px;
-    
-} */
-
-/* nav ul li a{
-    display: block;    
-    padding: 40px;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-    
-    } */
 
 nav ul li:hover {
     background: #012b24ad;
     }
 
 
-/* .envoltura {
-    width: 100%;
-    margin: auto;
-    overflow: hidden;
-} */
-
-
-/* header {
-    background-color: rgba(0, 0, 0, 0.253);    
-    width: 100%;
-    position: fixed;
-    
-}  */
-
-
 main {
        background-color: rgba(172, 172, 172, 0.466);  
-}
+    }
 
-h1{
+    h1{
     text-align: center;
     padding-top: 7%;}
-h2{
+    h2{
     text-align: center;
     padding-top: 1%;    
-}
+    }
 
-p {
+    p {
     text-align: center;
     padding-top: 2%;
     margin-bottom: 15px;
-}
+    }
+
 
 .centro{
     width: 100%;
@@ -99,11 +48,7 @@ footer{
     display: flex;
     flex-direction: center;
     align-items: center;
-    justify-content: center;
-
-
-   
-     
+    justify-content: center;  
     background-color: rgba(0, 0, 0, 0.438);
     padding-top: 1%;        
     }
@@ -125,16 +70,16 @@ table, td {
 
 
 .tabla-1{
-    height: 500px;
+    $tamaño-tabla;
 }
 .tabla-2{
-    height: 500px;
+    $tamaño-tabla;
 }
 .tabla-3{
-    height: 500px;
+    $tamaño-tabla;
 }
 .tabla-4{
-    height: 500px;
+    $tamaño-tabla;
 }
 
 
@@ -164,9 +109,7 @@ table, td {
     ;  
     margin: auto;
 
-    
-    /* grid-template-columns: 700px 700px;
-    grid-template-rows: 700px 700px; */
+
     
 }
 
@@ -258,3 +201,16 @@ table, td {
             background: #012b24ad;
         }
 }
+
+button{
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.438);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer; 
+    /* padding: 30px; */
+    color: aliceblue0;
+    font-size: 35px;
+    transition: .3s ease all; 
+} 
