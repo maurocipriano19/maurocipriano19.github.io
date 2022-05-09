@@ -1,0 +1,13 @@
+footer{         
+    
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    justify-content: center; 
+    background-color: rgba(0, 0, 0, 0.438);
+    padding-top: 1%;        
+    
+    ul li {
+          list-style-type: none;
+    }
+}
