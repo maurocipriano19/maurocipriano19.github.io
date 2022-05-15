@@ -17,6 +17,45 @@ main {
     }
 }
 
+//maps
+$redes : (
+    whatsapp: rgb(5, 180, 78),
+    facebook: #0e049b,
+    instagram:#f0a2f3d8,
+    youtube:#790101,
+    spotify:rgb(5, 180, 78),
+);
+
+@each $red, $color in $redes {
+    .red-#{$red} { 
+    color: $color;
+    }
+}
+
+//extend
+.table {
+        $tamaño-tabla;            
+}
+
+.td {
+    @extend .table;
+    border: 3px solid black;
+    border-collapse: collapse;    
+    padding: 10px;
+    text-align: center;
+    margin: auto;
+    }
+
+
+//mixins
+@mixin size ($alto) {
+    height: $alto;
+    
+}
+
+div{
+    @include size(500px);
+}
 
 
 

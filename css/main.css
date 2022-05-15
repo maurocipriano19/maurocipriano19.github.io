@@ -58,6 +58,8 @@ footer ul li {
 }
 
 
+
+
 table, td {
         border: 3px solid black;
         border-collapse: collapse;    
@@ -202,15 +204,17 @@ table, td {
         }
 }
 
-button{
-    width: 50px;
-    height: 50px;
-    background-color: rgba(0, 0, 0, 0.438);
-    border-radius: 10px;
-    border: none;
-    cursor: pointer; 
-    /* padding: 30px; */
-    color: aliceblue0;
-    font-size: 35px;
-    transition: .3s ease all; 
-} 
+     .fa-brands, .fab {
+        font-family: "Font Awesome 6 Brands";
+        font-weight: 400;
+        width: 50px;
+        height: 50px;       
+        border-radius: 10px;
+        border: none; 
+        cursor: pointer;
+        padding: 8px;  
+        color: aliceblue0;
+        font-size: 35px;
+        transition: .3s ease all; 
+    }
+
