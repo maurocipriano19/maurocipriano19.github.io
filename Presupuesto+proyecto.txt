@@ -1,0 +1,25 @@
+1) Obtuvimos de la entrevista, la necesidad que tiene el cliente "Heladeria de barrio S.A" con respecto a poder promocionar y vender sus productos
+de manera rapida y eficiente mediante una pagina web full responsive. Ademas le haremos un mantenimiento mensual del sitio.
+
+2) Vamos a desarrollar la pagina web full responsive, con todos los tipos de helados que tiene el cliente, y botones simples que permitan ajustar las cantidades
+y sabores a elegir. De esta manera al clickear en el boton de compra final, nos redireccionará a mercadopago para realizar el pago.
+
+3) Vamos a utilizar lenguajes html, css, aplicando boostrap y saas para poder utilizar variables de css. Iremos subiendo todo a un repositorio web con los
+respectivos avances del proyecto hasta su etapa final de subida al servidor.
+
+4) Las etapas del trabajo son al menos 5 fases: diseño del sitio, prototipado, desarrollo, testing y el pase final a produccion
+
+5) el tiempo maximo es de 45 dias de trabajo.
+
+6) El costo de trabajo de horas hombre= 9 usd la hora x 45 dias (jornada de 8hsx 5dias a la semana) = 3240 usd total hhm
+A esto le tenemos que sumar costos extras de hosting, dominio y ssl. (400$ x 12 meses + 475$ +69.90$ *24 meses = 6952.60 /200 = 35usd)
+
+total precio final = 3275 usd
+
+50 % al inicio y 50 % al final
+
+Al inicio= 1637.5 usd
+Al final=1637.5 usd
+
+
+
