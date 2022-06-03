@@ -1,3 +1,9 @@
+/* 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} */
 
 nav ul li:hover {
     background: #012b24ad;
@@ -31,6 +37,39 @@ main {
 }
 
 
+
+.titulo {
+    padding-bottom: 5%;
+    border-top: 10px solid #00000080;
+
+}
+
+.container-all img{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    display: block;
+}
+
+.container-all h4{
+    margin-bottom: 20px;
+}
+
+.formulario{
+    margin-bottom: 30px;
+}
+
+.mapa iframe{
+    
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    
+
+}
+
+
 .seccion-2 {
        background-color: rgba(0, 0, 0, 0.678);
        
@@ -61,6 +100,9 @@ footer ul li {
 
 
 table, td {
+        
+    
+
         border: 3px solid black;
         border-collapse: collapse;    
         padding: 10px;
@@ -100,6 +142,7 @@ table, td {
 
 
 .grid  {
+
     display: grid;
     grid-template-areas: 
     
@@ -110,32 +153,33 @@ table, td {
     
     ;  
     margin: auto;
-
-
     
 }
 
 
 .seccion-4 {
-    padding: 20%;
-    padding-top: 40%;
+    padding: 5%;
+    text-align: center;
     
 }
 
 .seccion-4-1{
-    padding: 20%;
+    padding: 5%;
+    text-align: center;
     
 }
 
 .seccion-4-2 {
-    padding: 20%; 
-    /* padding-top: 80%; */
+    padding: 5%; 
+    text-align: center;
    
 }
 
+
 .seccion-4-3{
-    padding: 20%;
-    /* padding-top: 80%; */
+    padding: 5%;
+    text-align: center;
+    padding-bottom: 100px; 
   
 }
 
@@ -144,17 +188,10 @@ table, td {
     background: rgba(172, 172, 172, 0.466);
 }
 
-.grid img:hover{
-        transform: scale(1.2);
-        border-radius: 15px;
-        /* border-style: solid; 
-        border-color: rgba(88, 86, 86, 0.527); */
-}
 
 
-
-/* a partir de aca uso las media queris */
-@media screen and (min-width: 768px) { 
+/* a partir de aca uso las media queris 768 */
+ @media screen and (min-width: 1400px) { 
 
     main {
         padding-bottom: 10px;    
@@ -173,10 +210,17 @@ table, td {
         /* grid-template-areas: 
         
         "seccion-4"     "seccion-4-1"
-        "seccion-4-2"   "seccion-4-3" 
-        
+        "seccion-4-2"   "seccion-4-3"        
         ; */
     }
+
+    .grid img:hover{
+            transform: scale(1.2);
+            border-radius: 15px;
+            
+    }
+
+   
         .seccion-4 {
             padding: 20%;
             
@@ -201,8 +245,14 @@ table, td {
         .separador-1 {
             height: 1000px;
             background: #012b24ad;
-        }
-}
+        } 
+    }
+
+
+
+
+        
+
 
      .fa-brands, .fab {
         font-family: "Font Awesome 6 Brands";
